@@ -53,7 +53,6 @@
     "features.shader.uniform.ShaderProgramMixin",
     "features.textures.NativeImageAccessor",
     "features.textures.SpriteContentsInvoker",
-    "features.textures.animations.tracking.BlockModelRendererMixin",
     "features.textures.animations.tracking.DrawContextMixin",
     "features.textures.animations.tracking.SpriteAtlasTextureMixin",
     "features.textures.animations.tracking.SpriteBillboardParticleMixin",
@@ -69,7 +68,6 @@
     "features.textures.mipmaps.MipmapHelperMixin",
     "features.textures.mipmaps.SpriteContentsMixin",
     "features.world.biome.BiomeMixin",
-    "workarounds.context_creation.WindowMixin",
-    "workarounds.event_loop.RenderSystemMixin"
+    "workarounds.context_creation.WindowMixin"
   ]
 }
