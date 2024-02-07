@@ -17,7 +17,6 @@ public class LateDriverScanner {
     private static final Logger LOGGER = LoggerFactory.getLogger("Sodium-PostlaunchChecks");
 
     public static void onContextInitialized() {
-        checkContextImplementation();
 
         GLContextInfo driver = GLContextInfo.create();
 
