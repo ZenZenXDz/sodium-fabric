@@ -69,6 +69,21 @@
     "features.world.biome.BiomeMixin",
     "features.world.biome.FoliageColorsAccessor",
     "features.world.biome.GrassColorsAccessor",
-    "workarounds.context_creation.WindowMixin"
+    "workarounds.context_creation.WindowMixin",
+
+    "core.world.biome.ClientWorldMixin",
+    "core.world.chunk.EmptyPaletteStorageMixin",
+    "core.world.chunk.PackedIntegerArrayMixin",
+    "core.world.chunk.PalettedContainerMixin",
+    "core.world.map.ClientChunkManagerMixin",
+    "core.world.map.ClientPlayNetworkHandlerMixin",
+    "core.world.map.ClientWorldMixin",
+    "features.options.weather.WorldRendererMixin",
+    "features.render.gui.outlines.WorldRendererMixin",
+    "features.render.world.clouds.WorldRendererMixin",
+    "features.render.world.sky.ClientWorldMixin",
+    "features.render.world.sky.WorldRendererMixin",
+    "features.textures.animations.tracking.BlockModelRendererMixin",
+    "features.world.storage.ClientChunkMapMixin"
   ]
 }
