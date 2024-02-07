@@ -112,7 +112,7 @@ tasks.withType<JavaCompile> {
 fun createVersionString(): String {
     val builder = StringBuilder()
 
-    val isReleaseBuild = project.hasProperty("build.release")
+    val isReleaseBuild = true //project.hasProperty("build.release")
     val buildId = System.getenv("GITHUB_RUN_NUMBER")
 
     if (isReleaseBuild) {
