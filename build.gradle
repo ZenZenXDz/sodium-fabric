@@ -91,24 +91,6 @@ dependencies {
     modIncludeImplementation(fabricApi.module("fabric-resource-loader-v0", project.fabric_version))
 }
 
-def getVersionMetadata() {
-    // CI builds only
-    if (project.hasProperty("build.release")) {
-        return "" // no tag whatsoever
-    }
-
-    if (grgit != null) {
-        def head = grgit.head()
-        def id = head.abbreviatedId
-
-        // Flag the build if the build tree is not clean
-        if (!grgit.status().clean) {
-            id += "-dirty"
-        }
-
-        return "+git.${id}"
-    }
-
-    // No tracking information could be found about the build
-    return "+unknown"
+static def getVersionMetadata() {
+    return ""
 }
