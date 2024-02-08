@@ -10,7 +10,6 @@
     "conformVisibility": true
   },
   "client": [
-    "core.MinecraftClientMixin",
     "core.WindowMixin",
     "core.gui.DownloadingTerrainScreenMixin",
     "core.model.colors.BlockColorsMixin",
@@ -74,15 +73,9 @@
     "core.world.chunk.EmptyPaletteStorageMixin",
     "core.world.chunk.PackedIntegerArrayMixin",
     "core.world.chunk.PalettedContainerMixin",
-    "core.world.map.ClientChunkManagerMixin",
-    "core.world.map.ClientPlayNetworkHandlerMixin",
-    "core.world.map.ClientWorldMixin",
     "features.options.weather.WorldRendererMixin",
-    "features.render.gui.outlines.WorldRendererMixin",
     "features.render.world.clouds.WorldRendererMixin",
     "features.render.world.sky.ClientWorldMixin",
-    "features.render.world.sky.WorldRendererMixin",
-    "features.textures.animations.tracking.BlockModelRendererMixin",
-    "features.world.storage.ClientChunkMapMixin"
+    "features.render.world.sky.WorldRendererMixin"
   ]
 }
