@@ -79,6 +79,5 @@
     "features.options.weather.WorldRendererMixin",
     "features.render.world.clouds.WorldRendererMixin",
     "features.render.world.sky.WorldRendererMixin"
-    "features.render.world.sky.WorldRendererMixin",
   ]
 }
