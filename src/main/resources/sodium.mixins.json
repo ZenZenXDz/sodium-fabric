@@ -10,7 +10,6 @@
     "conformVisibility": true
   },
   "client": [
-    "core.MinecraftMixin",
     "core.WindowMixin",
     "core.gui.LevelLoadStatusManagerMixin",
     "core.model.colors.BlockColorsMixin",
@@ -26,15 +25,6 @@
     "core.render.immediate.consumer.BufferSourceMixin",
     "core.render.immediate.consumer.VertexMultiConsumerMixin$DoubleMixin",
     "core.render.immediate.consumer.VertexMultiConsumerMixin$MultipleMixin",
-    "core.render.world.RenderBuffersMixin",
-    "core.render.world.LevelRendererMixin",
-    "core.world.biome.ClientLevelMixin",
-    "core.world.chunk.ZeroBitStorageMixin",
-    "core.world.chunk.SimpleBitStorageMixin",
-    "core.world.chunk.PalettedContainerMixin",
-    "core.world.map.ClientChunkCacheMixin",
-    "core.world.map.ClientPacketListenerMixin",
-    "core.world.map.ClientLevelMixin",
     "features.gui.hooks.console.GameRendererMixin",
     "features.gui.hooks.debug.DebugScreenOverlayMixin",
     "features.gui.hooks.settings.OptionsScreenMixin",
@@ -84,8 +74,17 @@
     "features.textures.mipmaps.MipmapGeneratorMixin",
     "features.textures.mipmaps.SpriteContentsMixin",
     "features.world.biome.BiomeMixin",
-    "features.world.storage.ClientChunkCacheMixin",
     "workarounds.context_creation.WindowMixin",
-    "workarounds.event_loop.RenderSystemMixin"
+
+    "core.world.chunk.PackedIntegerArrayMixin",
+    "core.world.chunk.EmptyPaletteStorageMixin",
+    "core.world.chunk.PalettedContainerMixin",
+    "core.world.biome.ClientWorldMixin",
+
+    "features.render.world.sky.ClientWorldMixin",
+
+    "features.options.weather.WorldRendererMixin",
+    "features.render.world.clouds.WorldRendererMixin",
+    "features.render.world.sky.WorldRendererMixin"
   ]
 }
